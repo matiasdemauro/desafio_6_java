@@ -1,0 +1,18 @@
+
+//importamos las fuente
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+//importamos los Partials
+@import '_general';
+@import '_variables';
+
+.container{
+    font-family: $font6;
+    color: $color2;
+    #boton{
+        border: 0;
+    }
+    .borrar{ 
+        border: 0;
+        margin-top: 10px;
+    }
+}
